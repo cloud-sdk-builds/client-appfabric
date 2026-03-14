@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-appfabric`](https://www.npmjs.com/package/@aws-sdk/client-appfabric/v/3.1008.0).
+[`@aws-sdk/client-appfabric`](https://www.npmjs.com/package/@aws-sdk/client-appfabric/v/3.1009.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1008.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1009.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-Muq4xmPsN3QpbARVySPwjVB2hq/TZa+BCIYXMfSS2CIWcrNLPAG1ArYVxhsXk/Os
+sha384-dHk4xo+0J5svUNXJCN2rz2CW3DStw03ozbPE8kEpIk3wL7r6nMtj9KzxhLnNzc71
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-appfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1008.0/index.min.mjs"
+            "@aws-sdk/client-appfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1009.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1008.0/index.min.mjs": "sha384-Muq4xmPsN3QpbARVySPwjVB2hq/TZa+BCIYXMfSS2CIWcrNLPAG1ArYVxhsXk/Os"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1009.0/index.min.mjs": "sha384-dHk4xo+0J5svUNXJCN2rz2CW3DStw03ozbPE8kEpIk3wL7r6nMtj9KzxhLnNzc71"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-appfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1008.0/index.min.mjs"
+                        "@aws-sdk/client-appfabric": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1009.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1008.0/index.min.mjs": "sha384-Muq4xmPsN3QpbARVySPwjVB2hq/TZa+BCIYXMfSS2CIWcrNLPAG1ArYVxhsXk/Os"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-appfabric@3.1009.0/index.min.mjs": "sha384-dHk4xo+0J5svUNXJCN2rz2CW3DStw03ozbPE8kEpIk3wL7r6nMtj9KzxhLnNzc71"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1008.0`)
+* Always pin to a specific version (`@3.1009.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-appfabric/blob/refs/tags/3.1008.0/LICENSE
+https://github.com/cloud-sdk-builds/client-appfabric/blob/refs/tags/3.1009.0/LICENSE
 ```
 
 ---
